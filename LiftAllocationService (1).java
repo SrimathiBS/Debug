@@ -3,6 +3,13 @@ import java.util.Iterator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
+
+
+
+//you have given lot of code, i asked u to refer my previous code that i gave u as zip file right? validation should be done while getting input from main itself so u better refer the zip file that i uploaded and give me updated code. make sure the updated code is just like how i did, no unnecessary conditions and codes. also or turning a lift , its max value should be the last element in the treeset since it is the last largest floor no it should serve no need to go to highest floor when it dosent have a request to process
+//
+
+
 public class LiftAllocationService {
     TreeSet<Request> pendingRequests = new TreeSet<>();
     TreeSet<Integer> nextFloors = new TreeSet<>();
