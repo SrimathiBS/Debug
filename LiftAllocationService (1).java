@@ -6,8 +6,11 @@ import java.util.TreeSet;
 
 
 
-//you have given lot of code, i asked u to refer my previous code that i gave u as zip file right? validation should be done while getting input from main itself so u better refer the zip file that i uploaded and give me updated code. make sure the updated code is just like how i did, no unnecessary conditions and codes. also or turning a lift , its max value should be the last element in the treeset since it is the last largest floor no it should serve no need to go to highest floor when it dosent have a request to process
-//
+//if we should get lift direction before getting pending request so if we enter lift is idle , user should not be able to enter pending requests i made the required change for that , but another change is if user gave up/down direction for lift but didnt give any pending request ,then the lift direction should be saved as idle
+//does pending request require direction?isn't it similar to nextfloor treeset ?
+//how to end the program or end getting input without enterning -1, -2 anol cuz if there are basement in a building we cant process it right.
+//what does INF mean here?
+//for variable naming dont say f,T,B anol give correct name like liftFloor,pickupFloor like that
 
 
 public class LiftAllocationService {
