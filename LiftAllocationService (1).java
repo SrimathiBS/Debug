@@ -6,9 +6,7 @@ import java.util.TreeSet;
 
 
 
-//in calculating the cost,i did not under stand why u calculated like this this int lowerTurnFloor = Math.min(lowestNextFloor, pickupFloor);
-//                return (highestNextFloor - liftFloor) + (highestNextFloor - lowerTurnFloor) + (pickupFloor - lowerTurnFloor); and  int upperTurnFloor = Math.max(highestNextFloor, pickupFloor);
-//                return (liftFloor - lowestNextFloor) + (upperTurnFloor - lowestNextFloor) + (upperTurnFloor - pickupFloor); explain with example in simple words.
+//in countStopsBeforePickup why did u remove pickup from the stop treeset we used  return stops.subSet(liftFloor, false, pickupFloor, false).size(); so that it will not include pickupfloor in the subset right?
 
 
 public class LiftAllocationService {
