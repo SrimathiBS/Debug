@@ -5,8 +5,8 @@ import java.util.TreeSet;
 
 
 
-
-//in countStopsBeforePickup why did u remove pickup from the stop treeset we used  return stops.subSet(liftFloor, false, pickupFloor, false).size(); so that it will not include pickupfloor in the subset right?
+//if a lift is assigned we will not know the turning point without destination value so for down request we dont have to consider lift 2 , calculate the cost for remaining lifts and choose the best one.
+//in countStopsBeforePickup why did u remove pickup from the stop treeset we used  return stops.subSet(liftFloor, false, pickupFloor, false).size(); so that, it will not include pickupfloor in the subset right?
 
 
 public class LiftAllocationService {
