@@ -6,11 +6,9 @@ import java.util.TreeSet;
 
 
 
-//if we should get lift direction before getting pending request so if we enter lift is idle , user should not be able to enter pending requests i made the required change for that , but another change is if user gave up/down direction for lift but didnt give any pending request ,then the lift direction should be saved as idle
-//does pending request require direction?isn't it similar to nextfloor treeset ?
-//how to end the program or end getting input without enterning -1, -2 anol cuz if there are basement in a building we cant process it right.
-//what does INF mean here?
-//for variable naming dont say f,T,B anol give correct name like liftFloor,pickupFloor like that
+//in calculating the cost,i did not under stand why u calculated like this this int lowerTurnFloor = Math.min(lowestNextFloor, pickupFloor);
+//                return (highestNextFloor - liftFloor) + (highestNextFloor - lowerTurnFloor) + (pickupFloor - lowerTurnFloor); and  int upperTurnFloor = Math.max(highestNextFloor, pickupFloor);
+//                return (liftFloor - lowestNextFloor) + (upperTurnFloor - lowestNextFloor) + (upperTurnFloor - pickupFloor); explain with example in simple words.
 
 
 public class LiftAllocationService {
